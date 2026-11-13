@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+artifacts/
+node_modules/
+web/dist/
+.npm-cache/
+scripts/.testkey
+.env
+.env.local
+.claude/
+部署与提交步骤.md

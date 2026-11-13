@@ -5,10 +5,19 @@ Pay for OpenStreetMap fixes, and only for the ones that are real, in the right p
 A sponsor locks GEN for one kind of improvement in a small area (for example: *add `wheelchair=*` to cafés in this district*). A mapper does the work on openstreetmap.org, discloses the bounty in the changeset tags, and claims with the changeset number. Every GenLayer validator reads the public OpenStreetMap API on its own, rebuilds the same evidence record, and the contract pays the mapper only if every rule holds and validators agree that the edits do what the sponsor asked.
 
 - **Live app:** https://osm-fix-bounty.vercel.app
+- **Demo video (58 s):** [docs/demo.mp4](docs/demo.mp4)
 - **Contract:** [`contracts/osm_fix_bounty.py`](contracts/osm_fix_bounty.py) (GenLayer Intelligent Contract, Python)
 - **Frontend:** [`web/`](web) (Vite + React + genlayer-js)
 - **Network:** GenLayer Studionet (chain id 61999)
 - **Deployed contract:** `0x143EAd41f2fb9E00a5f06851780e092d30e21DBC` (deploy tx `0xb4fc8e15962d1ed880d7707d396c37963522fa93fd5a91f902629e7358de2f06`)
+
+## Live end-to-end run (Studionet)
+
+Bounty 0 on the deployed contract asked for `name:zh` on museums in central Paris. OSM changeset
+[191903285](https://www.openstreetmap.org/changeset/191903285) added `name:zh=维克多·雨果之家` to
+Maison de Victor Hugo (copied from Wikidata Q2599177) and carried the two bounty tags. The claim was
+accepted by validator consensus: all rules passed, verdict `SATISFIED` ("The edit added the correct Chinese
+name for the museum as requested by the sponsor."), and 1 GEN was paid out. The demo video shows this run.
 
 ## The trust problem
 

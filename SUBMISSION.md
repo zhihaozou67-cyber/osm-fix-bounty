@@ -17,12 +17,13 @@ How GenLayer is used: the sponsor's GEN is held in the Intelligent Contract. On 
 
 How to use: open the app, connect a wallet on Studionet. Sponsors use "Fund a bounty" (title, instructions, OSM key, area, deadline, number of fixes, total GEN). Mappers open a bounty, follow the editor link, add the two changeset tags shown in the app before uploading, then paste the changeset number into "Claim reward" and watch the transaction go through consensus.
 
-Testing: 10 direct-mode tests (paid claim, double claim, validator disagreement, wrong wallet, reverted edit, unchanged value, area/time/open/wrong-bounty/missing changeset, LLM rejection, refund timing) plus a live test that replays a real changeset from the OSM API. On Studionet the evidence pipeline was exercised with a real changeset and reached consensus.
+Testing: 10 direct-mode tests (paid claim, double claim, validator disagreement, wrong wallet, reverted edit, unchanged value, area/time/open/wrong-bounty/missing changeset, LLM rejection, refund timing) plus a live test that replays a real changeset from the OSM API. Live on Studionet: OSM changeset 191903285 (added name:zh to Maison de Victor Hugo, copied from Wikidata) was claimed against bounty 0; validators reached consensus, every rule passed, the verdict was SATISFIED and 1 GEN was paid automatically (shown in the demo video).
 
 Sustained use: accessibility groups and local NGOs that already organise wheelchair/toilets/tactile_paving mapping, city or humanitarian teams that need one attribute completed in one district by a date, and OSM quality campaigns that want to replace manual review time.
 
 **Links:**
 - Repository: https://github.com/zhihaozou67-cyber/osm-fix-bounty
 - Live app: https://osm-fix-bounty.vercel.app
+- Demo video: https://github.com/zhihaozou67-cyber/osm-fix-bounty/blob/main/docs/demo.mp4
 - Contract (Studionet): 0x143EAd41f2fb9E00a5f06851780e092d30e21DBC
 - Deploy transaction: 0xb4fc8e15962d1ed880d7707d396c37963522fa93fd5a91f902629e7358de2f06

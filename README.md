@@ -7,6 +7,7 @@ A sponsor locks GEN for one kind of improvement in a small area (for example: *a
 - **Contract:** [`contracts/osm_fix_bounty.py`](contracts/osm_fix_bounty.py) (GenLayer Intelligent Contract, Python)
 - **Frontend:** [`web/`](web) (Vite + React + genlayer-js)
 - **Network:** GenLayer Studionet (chain id 61999)
+- **Deployed contract:** `0x143EAd41f2fb9E00a5f06851780e092d30e21DBC` (deploy tx `0xb4fc8e15962d1ed880d7707d396c37963522fa93fd5a91f902629e7358de2f06`)
 
 ## The trust problem
 

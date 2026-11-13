@@ -1,7 +1,7 @@
 # Portal submission text (Projects)
 
 Copy the parts below into the GenLayer Portal "Submit contribution → Projects" form.
-Replace the remaining `<...>` placeholder after the app is online.
+All links are filled in.
 
 ---
 
@@ -23,6 +23,6 @@ Sustained use: accessibility groups and local NGOs that already organise wheelch
 
 **Links:**
 - Repository: https://github.com/zhihaozou67-cyber/osm-fix-bounty
-- Live app: <https://your-app.vercel.app>
+- Live app: https://osm-fix-bounty.vercel.app
 - Contract (Studionet): 0x143EAd41f2fb9E00a5f06851780e092d30e21DBC
 - Deploy transaction: 0xb4fc8e15962d1ed880d7707d396c37963522fa93fd5a91f902629e7358de2f06

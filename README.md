@@ -4,6 +4,7 @@ Pay for OpenStreetMap fixes, and only for the ones that are real, in the right p
 
 A sponsor locks GEN for one kind of improvement in a small area (for example: *add `wheelchair=*` to cafés in this district*). A mapper does the work on openstreetmap.org, discloses the bounty in the changeset tags, and claims with the changeset number. Every GenLayer validator reads the public OpenStreetMap API on its own, rebuilds the same evidence record, and the contract pays the mapper only if every rule holds and validators agree that the edits do what the sponsor asked.
 
+- **Live app:** https://osm-fix-bounty.vercel.app
 - **Contract:** [`contracts/osm_fix_bounty.py`](contracts/osm_fix_bounty.py) (GenLayer Intelligent Contract, Python)
 - **Frontend:** [`web/`](web) (Vite + React + genlayer-js)
 - **Network:** GenLayer Studionet (chain id 61999)
